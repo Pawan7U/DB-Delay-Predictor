@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+*.egg-info/
+
+# Generated artifacts (reproducible by running the scripts in src/)
+# Comment these out if you'd rather commit the data/models directly.
+models/*.joblib
